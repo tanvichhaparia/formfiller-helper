@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Event Registration — Google Forms</title>
+  <style>
+    body { font-family: 'Google Sans', Roboto, Arial, sans-serif; background: #ede7f6; padding: 30px 10px; }
+    .form-container { max-width: 640px; margin: 0 auto; }
+    .header-card { background: white; border-radius: 8px; border-top: 10px solid #673ab7; padding: 24px; margin-bottom: 12px; }
+    .item-card { background: white; border-radius: 8px; padding: 24px; margin-bottom: 12px; border: 1px solid #dadce0; }
+    .M7eMe { font-size: 16px; font-weight: 500; color: #202124; margin-bottom: 16px; }
+    .vnumgf { color: #d93025; margin-left: 4px; }
+    input[type="text"], input[type="email"] { width: 60%; border: none; border-bottom: 1px solid #70757a; padding: 8px 0; font-size: 14px; outline: none; }
+    input:focus { border-bottom: 2px solid #673ab7; }
+    .radio-option { display: flex; align-items: center; gap: 10px; margin-bottom: 12px; cursor: pointer; }
+    div[role="radio"] { width: 18px; height: 18px; border: 2px solid #5f6368; border-radius: 50%; display: inline-block; }
+    div[role="radio"].checked { border-color: #673ab7; background: #673ab7; }
+  </style>
+</head>
+<body>
+  <div class="form-container">
+    <div class="header-card">
+      <h1 style="font-size: 28px; margin: 0 0 10px 0;">Annual Tech Symposium</h1>
+      <p style="color: #5f6368; margin: 0;">Please register below to reserve your entry pass.</p>
+    </div>
+
+    <!-- Question 1: Full Name -->
+    <div class="item-card" role="listitem">
+      <div role="heading" class="M7eMe">Full Name <span class="vnumgf">*</span></div>
+      <input type="text" placeholder="Your answer" />
+    </div>
+
+    <!-- Question 2: Email -->
+    <div class="item-card" role="listitem">
+      <div role="heading" class="M7eMe">Email Address <span class="vnumgf">*</span></div>
+      <input type="email" placeholder="Your answer" />
+    </div>
+
+    <!-- Question 3: Contact Number -->
+    <div class="item-card" role="listitem">
+      <div role="heading" class="M7eMe">Contact Number <span class="vnumgf">*</span></div>
+      <input type="text" placeholder="Your answer" />
+    </div>
+
+    <!-- Question 4: Institution / University -->
+    <div class="item-card" role="listitem">
+      <div role="heading" class="M7eMe">Name of Institution / College</div>
+      <input type="text" placeholder="Your answer" />
+    </div>
+
+    <!-- Question 5: Current Address -->
+    <div class="item-card" role="listitem">
+      <div role="heading" class="M7eMe">Where do you currently reside? (Address)</div>
+      <input type="text" placeholder="Your answer" />
+    </div>
+  </div>
+</body>
+</html>
